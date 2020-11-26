@@ -8,9 +8,7 @@ Examples of my PowerShell scripts for AD
 >If you use it (and I would be stoked if you did, being a newbie), note that you will have to update the ## derived parameters (lines 41-45) to suit your domain. Yes, I could abstract it out, but I was getting the evil eye for scripting rather than actually creating AD accounts so I decided good enough was enough...
 
 ### AD_reset_passwords_for_entire_class_public.ps1
-
 I get requests to reset the passwords for an entire class of students so this script does two things:
-
 * Build a CSV with the SamAccountName of everyone in that class for me to generate passwords against
 * Pause for me to update the CSV
 
